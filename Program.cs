@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,6 +15,7 @@ namespace GitFeladatok
 			F01(szamok);
 			F02(szamok);
 			F03(szamok);
+			F04(szamok);
 		}
 
 		static void F01(int[] tomb)
@@ -46,6 +48,24 @@ namespace GitFeladatok
 				atlag += tomb[i];
 			}
 			return  atlag/=tomb.Length;
+		}
+
+		static int[] F04(int[] tomb)
+		{
+			int[] paratlanok = new int[10];
+			for (int i = 0; i < tomb.Length; i++)
+			{
+				if (tomb[i] % 2 ==0)
+				{
+					tomb[i]++;
+					paratlanok[i] = tomb[i];
+				}
+				else
+				{
+					paratlanok[i] = tomb[i];
+				}
+			}
+			return paratlanok;
 		}
 	}
 }
