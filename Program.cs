@@ -57,8 +57,8 @@ namespace GitFeladatok
 			{
 				if (tomb[i] % 2 == 0)
 				{
-					//tomb[i]++;
-					paratlanok[i] = tomb[i]++;
+					tomb[i]++;
+					paratlanok[i] = tomb[i];
 				}
 				else
 				{
