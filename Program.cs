@@ -11,7 +11,11 @@ namespace GitFeladatok
 	{
 		static void Main(string[] args)
 		{
-			
+			int[] szamok = new int[10];
+			F01(szamok);
+			F05(szamok);
+
+			Console.ReadKey();
 		}
 
 		static void F01(int[] tomb)
