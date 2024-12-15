@@ -12,6 +12,8 @@ namespace GitFeladatok
 		{
 			int[] szamok = new int[10];
 			F01(szamok);
+			F02(szamok);
+			F03(szamok);
 		}
 
 		static void F01(int[] tomb)
@@ -34,6 +36,16 @@ namespace GitFeladatok
 				}
 			}
 			return szamlalo;
+		}
+
+		static double F03(int[] tomb)
+		{
+			double atlag = 0;
+			for (int i = 0; i < tomb.Length; i++)
+			{
+				atlag += tomb[i];
+			}
+			return  atlag/=tomb.Length;
 		}
 	}
 }
