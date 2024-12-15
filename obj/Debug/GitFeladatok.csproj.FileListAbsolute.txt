@@ -1,0 +1,7 @@
+D:\OneDrive - Óbudai egyetem\Korrepetációs tananyagok\C#\Tanulóim\Mohamed\GitFeladatok\GitFeladatok\bin\Debug\GitFeladatok.exe.config
+D:\OneDrive - Óbudai egyetem\Korrepetációs tananyagok\C#\Tanulóim\Mohamed\GitFeladatok\GitFeladatok\bin\Debug\GitFeladatok.exe
+D:\OneDrive - Óbudai egyetem\Korrepetációs tananyagok\C#\Tanulóim\Mohamed\GitFeladatok\GitFeladatok\bin\Debug\GitFeladatok.pdb
+D:\OneDrive - Óbudai egyetem\Korrepetációs tananyagok\C#\Tanulóim\Mohamed\GitFeladatok\GitFeladatok\obj\Debug\GitFeladatok.csproj.AssemblyReference.cache
+D:\OneDrive - Óbudai egyetem\Korrepetációs tananyagok\C#\Tanulóim\Mohamed\GitFeladatok\GitFeladatok\obj\Debug\GitFeladatok.csproj.CoreCompileInputs.cache
+D:\OneDrive - Óbudai egyetem\Korrepetációs tananyagok\C#\Tanulóim\Mohamed\GitFeladatok\GitFeladatok\obj\Debug\GitFeladatok.exe
+D:\OneDrive - Óbudai egyetem\Korrepetációs tananyagok\C#\Tanulóim\Mohamed\GitFeladatok\GitFeladatok\obj\Debug\GitFeladatok.pdb

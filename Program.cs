@@ -11,11 +11,7 @@ namespace GitFeladatok
 	{
 		static void Main(string[] args)
 		{
-			int[] szamok = new int[10];
-			F01(szamok);
-			F02(szamok);
-			F03(szamok);
-			F04(szamok);
+			
 		}
 
 		static void F01(int[] tomb)
@@ -55,10 +51,10 @@ namespace GitFeladatok
 			int[] paratlanok = new int[10];
 			for (int i = 0; i < tomb.Length; i++)
 			{
-				if (tomb[i] % 2 ==0)
+				if (tomb[i] % 2 == 0)
 				{
-					tomb[i]++;
-					paratlanok[i] = tomb[i];
+					//tomb[i]++;
+					paratlanok[i] = tomb[i]++;
 				}
 				else
 				{
@@ -66,6 +62,18 @@ namespace GitFeladatok
 				}
 			}
 			return paratlanok;
+		}
+
+		static void F05(int[] tomb)
+		{
+			Console.WriteLine($"Ennyi db pozitív szám van a tömbben: {F02(tomb)}");
+			Console.WriteLine($"A tömb elemeinek az átlaga: {F03(tomb):F4}");
+			Console.WriteLine("A tömbből alkotott páratlan számok:");
+			foreach (int paratlan in F04(tomb))
+			{
+				Console.Write($"{paratlan}, ");
+			}
+			Console.WriteLine();
 		}
 	}
 }
